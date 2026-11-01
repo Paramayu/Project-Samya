@@ -14,6 +14,11 @@ export default function App() {
   const [currentView, setCurrentView] = useState<ViewType>('home');
   const [selectedMember, setSelectedMember] = useState<string | null>(null);
 
+  // Ensure document title matches the requested tab heading
+  useEffect(() => {
+    document.title = 'SAMYA: Footsteps Towards Equality';
+  }, []);
+
   // Handle scrolling to top when changing views
   useEffect(() => {
     // Only scroll to top if we are not navigating to a specific team member
