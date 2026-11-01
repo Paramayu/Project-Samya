@@ -1,0 +1,6 @@
+{
+  "name": "Project SAMYA",
+  "description": "A youth-led social impact initiative in Nepal promoting educational equity, community resilience, and grassroots economic empowerment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
